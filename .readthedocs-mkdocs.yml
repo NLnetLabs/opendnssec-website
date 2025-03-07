@@ -43,3 +43,5 @@ nav:
     - 'about.md'
   - 'Features':
     - 'features.md'
+  - 'Documentation':
+    - 'documentation.md'
