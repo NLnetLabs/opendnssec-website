@@ -19,11 +19,9 @@ theme:
   name: material
   logo: assets/logo.png
   extra: https://www.opendnssec.org/
-  # favicon: images/favicon.png
   palette:
     primary: custom
   custom_dir: overrides
-  #highlightjs: false
   features:
     - navigation.tabs
     - navigation.sections
