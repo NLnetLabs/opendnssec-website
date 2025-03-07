@@ -5,6 +5,9 @@ body {
   /* background:#FFF url(../assets/bg.jpg) repeat-x !important; */
   --md-primary-fg-color: #FFFFFF;
 }
+.md-typeset a {
+  color: blue !important;
+}
 h2 {
   color:#ff7e00;
   font-weight:bold !important;

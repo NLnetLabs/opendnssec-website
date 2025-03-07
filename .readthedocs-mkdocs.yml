@@ -39,3 +39,5 @@ nav:
     - 'index.md'
   - 'Migration from 1.4 to 2.1':
     - 'migration.md'
+  - 'About':
+    - 'about.md'
