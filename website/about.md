@@ -12,7 +12,7 @@ Many internet protocol hinge on DNS, but the data in DNS caches has become so vu
 
 That is, if
 
-- **Zones are verified**. Easy-to-deploy software for DNSSEC-aware name resolving (and caching) exists, for example [Unbound](http://www.unbound.net/) or properly configured Bind9](http://www.isc.org/bind).
+- **Zones are verified**. Easy-to-deploy software for DNSSEC-aware name resolving (and caching) exists, for example [Unbound](http://www.unbound.net/) or properly configured [Bind9](http://www.isc.org/bind).
 - **Zones are secured**. Easy-to-deploy solutions for DNSSEC did not yet exist, at least not in open source. Hence the OpenDNSSEC project.
 
 **Note:**
