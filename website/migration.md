@@ -1,3 +1,9 @@
+---
+hide:
+  - navigation
+  - toc
+---
+
 A migration is needed to migration from 1.4 to 2.1.
 
 ### Preparations and considerations.
