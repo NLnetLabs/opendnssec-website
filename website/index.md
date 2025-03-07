@@ -21,3 +21,44 @@ This is a mainenance release that fixes some bugs and adds robustness for HSM ou
 - https://dist.opendnssec.org/source/opendnssec-2.1.14.tar.gz
 - https://dist.opendnssec.org/source/opendnssec-2.1.14.tar.gz.sig
 - Checksum SHA256: 5a68d62ea0ea3a6c61e9f4946f462c7b907fbe6bccc9e8a721b7fe0f906f95d0
+
+## OpenDNSSEC 2.1.13
+
+Version 2.1.13 of OpenDNSSEC has been released on 2023-06-26.
+
+**News**
+
+This release fixes a bug that affects both signer and enforcer command
+line handling. Under heavy usage of the command line there was a small
+change for a crash.
+Furthermore there is a small behavioural change for users of the “keep”
+policy. The back-off for retrying a sign task change is now equal to
+the resign period in case the input file isn’t available or updated.
+This because users nearly always will emit an external sign command for
+this period. This will reduce logging errors.
+
+**Download**
+
+- https://dist.opendnssec.org/source/opendnssec-2.1.13.tar.gz
+- https://dist.opendnssec.org/source/opendnssec-2.1.13.tar.gz.sig
+- Checksum SHA256: 50d7b9b0ccfc6a502784606ca4e5c03680fcf6425fb3947f45d8809ea8503e59
+
+## OpenDNSSEC 2.1.12
+
+Version 2.1.12 of OpenDNSSEC has been released on 2022-11-08.
+
+**News**
+
+This is a maintenance release of OpenDNSSEC addressing additional issues relating to the previous bug-fix release. Both installations that use shared keys or want to use salt lengths of zero must use this release. Other installations will benefit to from better reporting in case of issues.
+
+**Issues**
+
+- Ensure debug symbols on RPM-style builds;
+- Bug fix that prevented restoring state from when salt length was zero;
+- Bug fix for enforcer daemon crash after deleting key on some systems.
+
+**Download**
+
+- https://dist.opendnssec.org/source/opendnssec-2.1.12.tar.gz
+- https://dist.opendnssec.org/source/opendnssec-2.1.12.tar.gz.sig
+- Checksum SHA256: 50d7b9b0ccfc6a502784606ca4e5c03680fcf6425fb3947f45d8809ea8503e59
