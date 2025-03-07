@@ -51,3 +51,5 @@ nav:
       - 'community.md'
     - 'Consulting':
       - 'consulting.md'
+  - 'SoftHSM':
+    - 'softhsm.md'
