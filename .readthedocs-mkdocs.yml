@@ -41,3 +41,5 @@ nav:
     - 'migration.md'
   - 'About':
     - 'about.md'
+  - 'Features':
+    - 'features.md'
