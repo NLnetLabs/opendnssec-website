@@ -45,3 +45,9 @@ nav:
     - 'features.md'
   - 'Documentation':
     - 'documentation.md'
+  - 'Support':
+    - 'support.md'
+    - 'Community':
+      - 'community.md'
+    - 'Consulting':
+      - 'consulting.md'
