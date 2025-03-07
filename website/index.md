@@ -1,3 +1,9 @@
+---
+hide:
+  - navigation
+  - toc
+---
+
 ## The OpenDNSSEC project
 
 OpenDNSSEC is a policy-based zone signer that automates the process of keeping track of DNSSEC keys and the signing of zones. The goal of the project is to make DNSSEC easy to deploy. The project is Open Source and intends to drive adoption of Domain Name System Security Extensions (DNSSEC) to further enhance Internet security.

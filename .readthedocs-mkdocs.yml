@@ -18,15 +18,17 @@ extra_css:
 theme:
   name: material
   logo: assets/logo.png
-  extra: https://wiki.opendnssec.org/
+  extra: https://www.opendnssec.org/
   # favicon: images/favicon.png
   palette:
     primary: custom
   custom_dir: overrides
-  highlightjs: false
+  #highlightjs: false
   features:
     - navigation.tabs
     - navigation.sections
+  hide:
+    - navigation
 
 markdown_extensions:
   - pymdownx.details:
@@ -37,3 +39,5 @@ extra_javascript:
 nav:
   - 'Home':
     - 'index.md'
+  - 'Migration from 1.4 to 2.1':
+    - 'migration.md'
