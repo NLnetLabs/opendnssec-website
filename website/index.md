@@ -18,8 +18,8 @@ This is a mainenance release that fixes some bugs and adds robustness for HSM ou
 
 **Download**
 
-- https://dist.opendnssec.org/source/opendnssec-2.1.14.tar.gz
-- https://dist.opendnssec.org/source/opendnssec-2.1.14.tar.gz.sig
+- https://github.com/opendnssec/opendnssec/releases/download/2.1.14/opendnssec-2.1.14.tar.gz
+- https://github.com/opendnssec/opendnssec/releases/download/2.1.14/opendnssec-2.1.14.tar.gz.sig
 - Checksum SHA256: 5a68d62ea0ea3a6c61e9f4946f462c7b907fbe6bccc9e8a721b7fe0f906f95d0
 
 ## OpenDNSSEC 2.1.13
@@ -39,8 +39,8 @@ this period. This will reduce logging errors.
 
 **Download**
 
-- https://dist.opendnssec.org/source/opendnssec-2.1.13.tar.gz
-- https://dist.opendnssec.org/source/opendnssec-2.1.13.tar.gz.sig
+- https://github.com/opendnssec/opendnssec/releases/download/2.1.13/opendnssec-2.1.13.tar.gz
+- https://github.com/opendnssec/opendnssec/releases/download/2.1.13/opendnssec-2.1.13.tar.gz.sig
 - Checksum SHA256: 50d7b9b0ccfc6a502784606ca4e5c03680fcf6425fb3947f45d8809ea8503e59
 
 ## OpenDNSSEC 2.1.12
@@ -59,6 +59,6 @@ This is a maintenance release of OpenDNSSEC addressing additional issues relatin
 
 **Download**
 
-- https://dist.opendnssec.org/source/opendnssec-2.1.12.tar.gz
-- https://dist.opendnssec.org/source/opendnssec-2.1.12.tar.gz.sig
+- https://github.com/opendnssec/opendnssec/releases/download/2.1.12/opendnssec-2.1.12.tar.gz
+- https://github.com/opendnssec/opendnssec/releases/download/2.1.12/opendnssec-2.1.12.tar.gz.sig
 - Checksum SHA256: 50d7b9b0ccfc6a502784606ca4e5c03680fcf6425fb3947f45d8809ea8503e59
