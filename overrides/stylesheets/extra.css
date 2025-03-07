@@ -61,7 +61,7 @@ h3 {
 .md-tabs__link {
   font-size:2em !important;
 }
-li {
+ul li {
   list-style: none !important;
   margin:5px 0 !important;
   padding-left:15px !important;
