@@ -1,0 +1,39 @@
+site_name: OpenDNSSEC
+docs_dir: website
+
+plugins:
+  - include-markdown
+  - mermaid2
+  - search
+  - exclude-search:
+      exclude:
+        - '*.txt'
+        - 'howto.md'
+      exclude_unreferenced: false
+  - section-index
+
+extra_css:
+  - stylesheets/extra.css
+
+theme:
+  name: material
+  logo: assets/logo.png
+  extra: https://wiki.opendnssec.org/
+  # favicon: images/favicon.png
+  palette:
+    primary: custom
+  custom_dir: overrides
+  highlightjs: false
+  features:
+    - navigation.tabs
+    - navigation.sections
+
+markdown_extensions:
+  - pymdownx.details:
+
+extra_javascript:
+  - https://unpkg.com/mermaid@10.6.1/dist/mermaid.min.js
+
+nav:
+  - 'Home':
+    - 'index.md'
